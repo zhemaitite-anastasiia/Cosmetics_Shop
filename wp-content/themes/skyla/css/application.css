@@ -1073,7 +1073,9 @@ kbd,code {
 }
 
 p {
-    margin-bottom: 20px
+    
+    margin-bottom: 20px;
+  
 }
 
 figure {
