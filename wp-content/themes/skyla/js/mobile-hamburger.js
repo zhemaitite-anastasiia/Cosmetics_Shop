@@ -64,7 +64,7 @@
 
 	// add toggle arrow
 	jQuery('.wpisset-mobile-menu .menu-item-has-children').each(function() {
-		jQuery(this).append('<span class="wpisset-submenu-toggle"><i class="wpissetf wpissetf-arrow-down"></i></span>');
+		jQuery(this).append();
 	});
 
 	// mobile submenu animation
