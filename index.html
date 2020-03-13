@@ -232,22 +232,48 @@ body{
 
                             <div class="eltdf-grid-row">
                                    
-                                    <div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><link href="https://fonts.googleapis.com/css?family=Playfair+Display:italic%2C700italic%7COpen+Sans:400" rel="stylesheet" property="stylesheet" type="text/css" media="all">
+                                    <div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12">
+                                        <div class="vc_column-inner"><div class="wpb_wrapper">
+                                        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:italic%2C700italic%7COpen+Sans:400" rel="stylesheet" property="stylesheet" type="text/css" media="all">
                                     
-                                            <div>
-                                                    <base href="">
+                                            <div id="desktop">
+                                                  
                                                     <div id="slider">
                                                     <figure>        
-                                                    <img src="wp-content/uploads/k1.jpg" alt="">
-                                                    <img src="wp-content/uploads/n2.jpg" alt="">
-                                                    <img src="wp-content/uploads/n13.jpg" alt="">
-                                                    <img src="wp-content/uploads/n11.jpg" alt="">
+                                                    <img src="wp-content/uploads/k1.jpg">
+                                                    <img src="wp-content/uploads/n2.jpg">
+                                                    <img src="wp-content/uploads/n13.jpg">
+                                                    <img src="wp-content/uploads/n11.jpg">
                                                    
                                                 
                                                     </figure>
                                                     </div>
                                     </div>
+                                    <div id="mobile">
+                                                  
+                                            <div id="slider">
+                                            <figure>        
+                                            <img src="wp-content/uploads/m1.jpg">
+                                            <img src="wp-content/uploads/m2.jpg">
+                                            <img src="wp-content/uploads/m3.jpg">
+                                            <img src="wp-content/uploads/m4.jpg">
+                                           
+                                        
+                                            </figure>
+                                            </div>
+                            </div>
                                                     <style>
+                                                   @media only screen and (max-width: 600px) {
+  #desktop {
+  display:none;
+  }
+}   
+@media only screen and (min-width: 600px) {
+  #mobile {
+  display:none;
+  }
+}     
+
                                                     @keyframes slidy {
                                     0% { left: 0%; }
                                     20% { left: 0%; }
@@ -413,6 +439,7 @@ body{
                                                             document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
                                                         }
                                                       </script>
+
                                      
                                     </div>
                                     
